@@ -1,17 +1,14 @@
 <?php
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'user_johan');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'vuelo5');
 
-define("DB_SERVER", "localhost");
-define("DB_USER", "root");
-define("DB_PASSWORD", "");
-define("DB_DATABASE", "aeropuerto");
+// Crear conexión
+$conexion = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-$conexion = mysqli_connect(DB_SERVER , DB_USER, DB_PASSWORD, DB_DATABASE);
-// Verificamos que haga la conexion
-if($conexion){
-    echo ("Conexión Exitosa");
-
-}else{
-    echo("Conexion Denegada");
+// Verificar conexión
+if ($conexion->connect_error) {
+    die("Conexión fallida: " . $conexion->connect_error);
 }
-
 ?>

@@ -67,8 +67,8 @@ http://www.tooplate.com/view/2093-flight
                     <li class="dropdown"><a href=""><span>Listas de Aerolineas</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="https://www.aeromar.mx/">Aeromar</a></li>
-                            <li><a href="https://aeromexico.com">Aeroméxico</a></li>
+                            <li><a href="https://www.latamairlines.com/co/es">Latam Airlines</a></li>
+                            <li><a href="https://www.avianca.com/es/">Avianca</a></li>
                             <li><a href="https://www.calafiaairlines.com/">Calafia Airlines</a></li>
                             <li><a href="https://interjet.pricetravel.com.mx/">Interjet</a></li>
                             <li><a href="https://www.magnicharters.com">Magnicharters</a></li>
@@ -80,16 +80,16 @@ http://www.tooplate.com/view/2093-flight
                     <li class="dropdown"><a href="Aeropuertos.php"><span>Aeropuertos</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#">Lista completa de Aeropuertos</a></li>
-                            <li><a href="#">Cancún</a></li>
-                            <li><a href="#">Ciudad de México</a></li>
-                            <li><a href="#">Culiacán</a></li>
-                            <li><a href="#">Gudalajara</a></li>
-                            <li><a href="#">Guanajuato</a></li>
-                            <li><a href="#">Los Cabos</a></li>
-                            <li><a href="#">Mérida</a></li>
-                            <li><a href="#">Monterrey</a></li>
-                            <li><a href="#">Puerto Vallarta</a></li>
-                            <li><a href="#">Tijuana</a></li>
+                            <li><a href="#">Neiva</a></li>
+                            <li><a href="#">Bogotá</a></li>
+                            <li><a href="#">Cartagena</a></li>
+                            <li><a href="#">Barranquilla</a></li>
+                            <li><a href="#">Medellin</a></li>
+                            <li><a href="#">Cali</a></li>
+                            <li><a href="#">Valledupar</a></li>
+                            <li><a href="#">Armenia</a></li>
+                            <li><a href="#">Pereira</a></li>
+                            <li><a href="#">San Andrés</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i

@@ -53,21 +53,27 @@ if(isset($_SESSION['usuario'])){
   <!-- ======= Header ======= -->
   <header id="header" style="background: black;" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
-
-      <h1 class="logo me-auto me-lg-0"><a href="index.php">MMAA<span>.</span></a></h1>
+      
+      <ul>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">DistriVuelos<span>.</span></a></h1>
+     
+            
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
+      </ul>
       <nav id="navbar" class="navbar order-last order-lg-0">
+        
+      
         <ul>
+          
           <!-- <li><a class="nav-link scrollto" href="#about">About</a></li>-->
           <!-- <li><a class="nav-link scrollto " href="#portfolio">¿?</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#team">¿?</a></li> -->
           <li><a class="nav-link scrollto" href="index-pagos.php">Reservas</a></li>
           <li class="dropdown"><a href="#"><span>Listas de Aerolineas</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="https://www.aeromar.mx/">Aeromar</a></li>
-              <li><a href="https://aeromexico.com">Aeroméxico</a></li>
+              <li><a href="https://www.latamairlines.com/co/es">Latam Airlines</a></li>
+              <li><a href="https://aeromexico.com">Avianca</a></li>
               <li><a href="https://www.calafiaairlines.com/">Calafia Airlines</a></li>
               <li><a href="https://interjet.pricetravel.com.mx/">Interjet</a></li>
               <li><a href="https://www.magnicharters.com">Magnicharters</a></li>
@@ -80,16 +86,16 @@ if(isset($_SESSION['usuario'])){
                 class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Lista completa de Aeropuertos</a></li>
-              <li><a href="#">Cancún</a></li>
-              <li><a href="#">Ciudad de México</a></li>
-              <li><a href="#">Culiacán</a></li>
-              <li><a href="#">Gudalajara</a></li>
-              <li><a href="#">Guanajuato</a></li>
-              <li><a href="#">Los Cabos</a></li>
-              <li><a href="#">Mérida</a></li>
-              <li><a href="#">Monterrey</a></li>
-              <li><a href="#">Puerto Vallarta</a></li>
-              <li><a href="#">Tijuana</a></li>
+              <li><a href="#">Neiva</a></li>
+              <li><a href="#">Bogotá</a></li>
+              <li><a href="#">Cartagena</a></li>
+              <li><a href="#">Barranquilla</a></li>
+              <li><a href="#">Medellin</a></li>
+              <li><a href="#">Cali</a></li>
+              <li><a href="#">Valledupar</a></li>
+              <li><a href="#">Armenia</a></li>
+              <li><a href="#">Pereira</a></li>
+              <li><a href="#">San Andrés</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i
@@ -109,9 +115,34 @@ if(isset($_SESSION['usuario'])){
               <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+            <li><a href="" ></a></li>
+           <li><a href="Login.php" >Iniciar Sesión</a></li>
+            
+     
       </nav><!-- .navbar -->
-      <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a>
-      <!--<a href="cerrar.php" class="get-started-btn scrollto">Cerrar Sesión</a>-->
+      
 
     </div>
   </header><!-- End Header -->
@@ -123,8 +154,8 @@ if(isset($_SESSION['usuario'])){
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>AEROPUERTO INTERNACIONAL DE ACAPULCO<span>.</span></h1>
-          <h2>AEROPUERTO INTERNACIONAL GENERAL JUAN N. ÁLVAREZ</h2>
+          <h1>VUELOS NACIONALES E INTERNACIONALES<span>.</span></h1>
+          <h2>¡ACOMPAÑANOS VIAJEROS!</h2>
         </div>
       </div>
 
@@ -145,10 +176,9 @@ if(isset($_SESSION['usuario'])){
               <div class="col-md-12">
               </div>
               <div class="col-md-12">
-                <p style="color: white;">Copyright &copy; 2021 Todos los derechos reservador Aeropuerto Internacional de
-                  Acapulco
+                <p style="color: white;">Copyright &copy; 2024 
 
-                  | Devoloped: <em>Armando David Camacho Merino</em></p>
+                  | Devoloped: <em>Jannier Johan Otavo Artunduaga</em></p>
               </div>
             </div>
           </div>
